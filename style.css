@@ -1,0 +1,83 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+  display: inline-block;
+    margin: 8px;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+
+.o1 h1 {
+    font-size: 20px;
+}
+
+.fal fa-star {
+    width: 200px;
+}
+
+.img {
+    border-right-color: grey;
+
+}
+
+
+
+.o1 button {
+    padding: 15px 50px;
+    background-color: #f391a8;
+    color: white;
+
+}
+
+.o1 button:hover {
+    background-color:  #ec4b75;
+    color: white;
+}
+
+.para {
+    width: 600px;
+    margin-left: 150px;
+    font-size: 14px;
+}
+
+ .products {
+     text-align: center;
+     display: inline-block;
+     margin-left: 150px;
+     margin-top: 100;
+     font-size: 14px;
+     border: 1px solid black;
+     border-right: 100px;
+     border-left-color: white;
+ }
+
+ .about-author {
+     display: block;
+ }
+
+ .about-author h3 {
+     display: block;
+        width: 100%;
+
+ }
+
+ 
+
+
